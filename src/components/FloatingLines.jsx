@@ -437,8 +437,7 @@ export default function FloatingLines({
 
     return () => {
       cancelAnimationFrame(raf);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      if (ro && containerRef.current) {
+      if (ro) {
         ro.disconnect();
       }
 
