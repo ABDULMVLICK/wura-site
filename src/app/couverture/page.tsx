@@ -1,4 +1,4 @@
-import FloatingLines from '@/components/FloatingLines';
+import PageBackground from '@/components/PageBackground';
 import Link from 'next/link';
 
 const mobileMoneyCountries = [
@@ -37,22 +37,7 @@ export default function Couverture() {
     return (
         <div className="bg-wero-white min-h-screen text-wero-black font-sans selection:bg-wero-yellow selection:text-wero-black relative">
             {/* GLOBAL BACKGROUND */}
-            <div className="fixed inset-0 z-0 pointer-events-none opacity-100">
-                <FloatingLines
-                    enabledWaves={["top", "middle", "bottom"]}
-                    lineCount={[5, 5, 5]}
-                    lineDistance={[5, 5, 5]}
-                    bendRadius={5}
-                    bendStrength={-0.5}
-                    interactive={false}
-                    parallax={true}
-                    linesGradient={['#FFD400', '#FFD400']}
-                    topWavePosition={{ x: 10, y: 0.5, rotate: -0.4 }}
-                    middleWavePosition={{ x: 5, y: 0, rotate: 0.2 }}
-                    bottomWavePosition={{ x: 0, y: 0, rotate: 0 }}
-                    mixBlendMode="normal"
-                />
-            </div>
+            <PageBackground />
 
             {/* HEADER */}
             <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-wero-black/95 backdrop-blur-md border-b border-white/10">
