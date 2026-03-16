@@ -86,7 +86,7 @@ export default function Home() {
               <div className="absolute top-full right-0 mt-4 w-72 bg-wero-black/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.6)] overflow-hidden">
                 <div className="px-5 py-4 flex flex-col gap-3">
                   <div className="flex items-center gap-2">
-                    <div className="w-2 h-2 rounded-full bg-wero-yellow animate-pulse"></div>
+                    <div className="w-2 h-2 rounded-full bg-wero-green animate-pulse"></div>
                     <span className="text-wero-white text-xs font-bold uppercase tracking-wider">En préparation</span>
                   </div>
                   <div className="flex gap-2">
@@ -133,21 +133,21 @@ export default function Home() {
           <section className="text-wero-black px-6 py-24 relative z-10">
             <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 bg-white/20 backdrop-blur-3xl border border-wero-black/10 rounded-[2rem] p-10 shadow-2xl">
               <div>
-                <div className="w-10 h-10 border border-wero-yellow rounded-full flex items-center justify-center mb-6">
+                <div className="w-10 h-10 border border-wero-green rounded-full flex items-center justify-center mb-6">
                   <svg className="w-5 h-5 text-wero-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 </div>
                 <h3 className="text-lg font-bold mb-3 tracking-wide">L'ÉCONOMIE NUMÉRIQUE, SIMPLIFIÉE</h3>
                 <p className="text-wero-black/70 font-medium text-sm leading-relaxed">Des milliers d'utilisateurs sécurisent et retirent leurs USDT chaque mois depuis l'Afrique et l'Europe grâce à notre infrastructure Web3 robuste.</p>
               </div>
               <div>
-                <div className="w-10 h-10 border border-wero-yellow rounded-full flex items-center justify-center mb-6">
+                <div className="w-10 h-10 border border-wero-green rounded-full flex items-center justify-center mb-6">
                   <svg className="w-5 h-5 text-wero-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 </div>
                 <h3 className="text-lg font-bold mb-3 tracking-wide">INFRASTRUCTURE SÉCURISÉE & PARTENAIRES RÉGULÉS</h3>
                 <p className="text-wero-black/70 font-medium text-sm leading-relaxed">Vos clés, votre crypto. Wura intègre des passerelles financières tierces dûment réglementées (On/Off-Ramp) pour garantir la sécurité et la conformité de vos conversions Fiat/Crypto.</p>
               </div>
               <div>
-                <div className="w-10 h-10 border border-wero-yellow rounded-full flex items-center justify-center mb-6">
+                <div className="w-10 h-10 border border-wero-green rounded-full flex items-center justify-center mb-6">
                   <svg className="w-5 h-5 text-wero-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
                 </div>
                 <h3 className="text-lg font-bold mb-3 tracking-wide">Assistance client 24/7</h3>
@@ -219,7 +219,7 @@ export default function Home() {
                       </div>
                       <div className="flex-1 bg-white/5 border border-white/10 rounded-xl p-3 text-center">
                         <p className="text-white font-black text-xs uppercase tracking-wide">Réseau</p>
-                        <p className="text-purple-400 text-[10px] font-bold mt-0.5">Polygon ✓</p>
+                        <p className="text-wero-green text-[10px] font-bold mt-0.5">Polygon ✓</p>
                       </div>
                     </div>
                   </div>
@@ -377,7 +377,7 @@ export default function Home() {
               <span className="hover:text-wero-black cursor-pointer transition-colors uppercase tracking-widest">Insta</span>
             </div>
           </div>
-          <p className="text-xs text-gray-400/80 text-center mt-6 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xs text-wero-green/50 text-center mt-6 max-w-4xl mx-auto leading-relaxed">
             Wura est une interface logicielle fournissant un accès à un portefeuille numérique décentralisé (non-custodial). Wura n'est pas une banque, une institution financière ou un transmetteur de fonds. Les services de conversion Fiat/Crypto (On/Off-ramp) sont fournis exclusivement par nos partenaires tiers réglementés. Wura ne stocke, ne contrôle, ni ne gère les fonds fiduciaires des utilisateurs.
           </p>
         </div>
